@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(124, 219, 188);
+}
+form{
+    display:table;/* shrinks to fit content */
+    margin:auto;
+}
+#submit{
+    margin-left:auto;
+    background-color: rgb(233, 89, 89);
+}
+label,h1{
+    color: rgb(7, 56, 17);
+}

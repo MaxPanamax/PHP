@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: rgb(210, 214, 217);
+}
+
+input,
+label,
+button {
+    margin: 10px;
+}
+
+#menu {
+    height: 24px;
+    padding: 20px;
+    background-color: rgb(123, 181, 232);
+}
+
+#menu a {
+    padding: 24px;
+}
+
+#main {
+    flex-grow: 1;
+}
+
+#footer {
+    height: 24px;
+    padding: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.authorization {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: rgb(28, 31, 206);
+}

@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-color: blueviolet;
+}
+
+#menu {
+    background-color: rgb(123, 181, 232);
+}
+
+#footer {
+    background-color: rgb(28, 31, 206);
+}
