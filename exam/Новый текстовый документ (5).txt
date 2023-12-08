@@ -1,0 +1,10 @@
+ALTER TABLE game ADD CONSTRAINT CK_game_teamHome check (TeamGuest<>TeamHome);
+ALTER TABLE game ADD CONSTRAINT CK_game_coach check (CoachTeamHome<>CoachTeamGuest);
+CREATE UNIQUE INDEX UQ_GAME_SEASONTour ON game (Tour, SeasonId);
+
+SELECT * FROM information_schema.table_constraints
+WHERE constraint_schema = 'fc'
+
+
+SELECT * FROM information_schema.table_constraints
+WHERE table_name = 'colleges'
